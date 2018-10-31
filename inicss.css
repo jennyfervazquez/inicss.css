@@ -3,10 +3,35 @@
 }
 
 :root{
-  --main-color: black;
+    --main-color: black;
+    --nav-bg-color: black;
+    --nav-height: 50px;
+    --nav-color: white;
 }
 
+html{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	min-height: 100%; /*important*/
+	font-size:100%;
+}
 
 body {
   color: var(--main-color);
 }
+
+nav{
+	position: fixed;
+	z-index: 999999;
+	top: 0;
+	left: 0;
+	margin: 0;
+	width: 100%;
+	min-width: 1030px; /*to bigger screens*/
+    height: var(--nav-height);
+	background-color: var(--nav-bg-color);
+	color: var(--nav-color);
+	padding: 0px;
+}
+
