@@ -1,5 +1,5 @@
 # inicss.css
-So I was tired of write the same CSS for each page (like size of columns and flex and the styles by deafault) and I decided to do this sort of "css" that you can use.
+So I was tired of write the same CSS for each page (like size of columns and flex and the styles by default) and I decided to do this sort of "css" that you can use.
 
 This code will provide:
 - Sizes of columns using %.
